@@ -1,13 +1,8 @@
 void setup() {
-  for(int i=2;i<=12;i++)
-  {
-  pinMode(i, OUTPUT);
-   digitalWrite(i, HIGH);
-  delay(100);
-  }
-  for(int i=2;i<=12;i++)
-  {digitalWrite(i, LOW);
-  delay(100);
+  //in functia setup singurul lucru pe care trebuie sa-l fac este
+  //sa-i spun MC-ului care pin-uri sunt de OUTPUT
+  for(int i=2;i<=12;i++){
+    pinMode(i, OUTPUT);
   }
 }
 
